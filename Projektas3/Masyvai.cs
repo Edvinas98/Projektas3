@@ -354,7 +354,9 @@ namespace Projektas3
                 Console.WriteLine("Raides nera masyve");
         }
 
-
+        /// <summary>
+        /// Įveskite eilutę ir patikrinkite, ar ji yra masyve
+        /// </summary>
         public static void VienuoliktojiUzduotis()
         {
             string[] Masyvas = new[] { "As", "Tu", "Jis", "Ji", "Jie", "Jos" };
@@ -371,6 +373,9 @@ namespace Projektas3
                 Console.WriteLine("Eilutes nera masyve");
         }
 
+        /// <summary>
+        /// Įveskite du skaičius ir patikrinkite, ar jų suma yra lygi bet kuriai masyvo reikšmei
+        /// </summary>
         public static void DvyliktojiUzduotis()
         {
             int[] Masyvas = new[] { 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19 };
@@ -397,6 +402,9 @@ namespace Projektas3
                 Console.WriteLine("Skaiciu sumos nera masyve");
         }
 
+        /// <summary>
+        /// Įveskite indekso numerį ir patikrinkite, ar šis indeksas egzistuoja masyve
+        /// </summary>
         public static void TryliktojiUzduotis()
         {
             double[] Masyvas = new[] { 1.5, 3.1, 3.847, 4.35, 6.82, 7.1, 8.76, 9.54, 11.89, 12.156, 13.795, 14.178, 16.94, 17.9, 18.48, 19.37 };
